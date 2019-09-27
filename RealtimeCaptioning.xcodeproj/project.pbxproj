@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A61AD8A233D3E33001278B9 /* VideoMediaInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A61AD89233D3E33001278B9 /* VideoMediaInput.swift */; };
+		0AA1FACB233E8B6C00C0837E /* imac7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1FACA233E8A9000C0837E /* imac7.mp4 */; };
 		F6BD9E6122823A0E004614F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD9E6022823A0E004614F2 /* AppDelegate.swift */; };
 		F6BD9E6622823A0E004614F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BD9E6422823A0E004614F2 /* Main.storyboard */; };
 		F6BD9E6822823A0E004614F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD9E6722823A0E004614F2 /* Assets.xcassets */; };
@@ -15,8 +16,6 @@
 		F6BD9E7622823A0E004614F2 /* RealtimeCaptioningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD9E7522823A0E004614F2 /* RealtimeCaptioningTests.swift */; };
 		F6BD9E8122823A0E004614F2 /* RealtimeCaptioningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD9E8022823A0E004614F2 /* RealtimeCaptioningUITests.swift */; };
 		F6BD9E932282C436004614F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD9E922282C436004614F2 /* ViewController.swift */; };
-		F6BD9E952282D941004614F2 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F6BD9E942282D8E3004614F2 /* video.mp4 */; };
-		F6BD9E972282E845004614F2 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F6BD9E962282E845004614F2 /* video2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0A61AD89233D3E33001278B9 /* VideoMediaInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMediaInput.swift; sourceTree = "<group>"; };
+		0AA1FACA233E8A9000C0837E /* imac7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = imac7.mp4; sourceTree = "<group>"; };
 		F6BD9E5D22823A0E004614F2 /* RealtimeCaptioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeCaptioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BD9E6022823A0E004614F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6BD9E6522823A0E004614F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,10 +50,7 @@
 		F6BD9E7C22823A0E004614F2 /* RealtimeCaptioningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeCaptioningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BD9E8022823A0E004614F2 /* RealtimeCaptioningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeCaptioningUITests.swift; sourceTree = "<group>"; };
 		F6BD9E8222823A0E004614F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6BD9E8E2282C16A004614F2 /* RealtimeCaptioning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealtimeCaptioning-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6BD9E922282C436004614F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6BD9E942282D8E3004614F2 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		F6BD9E962282E845004614F2 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +101,12 @@
 		F6BD9E5F22823A0E004614F2 /* RealtimeCaptioning */ = {
 			isa = PBXGroup;
 			children = (
-				F6BD9E942282D8E3004614F2 /* video.mp4 */,
-				F6BD9E962282E845004614F2 /* video2.mp4 */,
+				0AA1FACA233E8A9000C0837E /* imac7.mp4 */,
 				F6BD9E6022823A0E004614F2 /* AppDelegate.swift */,
 				F6BD9E6422823A0E004614F2 /* Main.storyboard */,
 				F6BD9E6722823A0E004614F2 /* Assets.xcassets */,
 				F6BD9E6922823A0E004614F2 /* LaunchScreen.storyboard */,
 				F6BD9E6C22823A0E004614F2 /* Info.plist */,
-				F6BD9E8E2282C16A004614F2 /* RealtimeCaptioning-Bridging-Header.h */,
 				F6BD9E922282C436004614F2 /* ViewController.swift */,
 				0A61AD89233D3E33001278B9 /* VideoMediaInput.swift */,
 			);
@@ -241,10 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BD9E952282D941004614F2 /* video.mp4 in Resources */,
 				F6BD9E6B22823A0E004614F2 /* LaunchScreen.storyboard in Resources */,
+				0AA1FACB233E8B6C00C0837E /* imac7.mp4 in Resources */,
 				F6BD9E6822823A0E004614F2 /* Assets.xcassets in Resources */,
-				F6BD9E972282E845004614F2 /* video2.mp4 in Resources */,
 				F6BD9E6622823A0E004614F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,7 +451,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.apps.RealtimeCaptioning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeCaptioning/RealtimeCaptioning-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,7 +471,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.apps.RealtimeCaptioning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealtimeCaptioning/RealtimeCaptioning-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

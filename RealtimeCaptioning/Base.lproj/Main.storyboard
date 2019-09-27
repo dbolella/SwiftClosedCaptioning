@@ -24,8 +24,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYs-LS-kHw">
-                                <rect key="frame" x="192" y="98" width="30" height="30"/>
-                                <state key="normal" title="Play"/>
+                                <rect key="frame" x="186" y="98" width="42" height="30"/>
+                                <state key="normal" title="Pause"/>
                                 <connections>
                                     <action selector="didTapPlayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jri-A1-54k"/>
                                 </connections>

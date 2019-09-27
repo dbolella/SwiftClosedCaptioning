@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Asset
-        guard let url = Bundle.main.url(forResource: "video2", withExtension: "mp4") else {
+        guard let url = Bundle.main.url(forResource: "imac7", withExtension: "mp4") else {
             print("can't get url")
             return
         }
